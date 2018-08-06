@@ -1,13 +1,12 @@
 <?php
 
-class Task extends \Rapd\Entity {
-	static $columns = [
+class Task extends \Rapd\PersistableEntity {
+	static $fields = [
 		"id" => integer::class,
 		"body" => string::class
 	];
 
 	public function VALIDATE_body($body){
-		error_log("Hei");
 		return strlen($body) > 1;
 	}
 }
