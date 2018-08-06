@@ -1,0 +1,5 @@
+{
+    "require": {
+        "asmundstavdahl/rapd": "dev-master"
+    }
+}
