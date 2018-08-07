@@ -1,5 +1,5 @@
 {
     "require": {
-        "asmundstavdahl/rapd": "dev-master"
+        "asmundstavdahl/rapd": "^0.4.1"
     }
 }
