@@ -1,6 +1,6 @@
 <?= render("header") ?>
 
-<h1>New(?) task</h1>
+<h1><?= $task->id ?"Edit" :"New" ?> task</h1>
 
 <form method="POST">
 	<input type="text" name="body" value="<?= $task->body ?>">
