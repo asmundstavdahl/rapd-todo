@@ -15,7 +15,9 @@ class TodoController {
 
 	public static function new(){
 		if("POST" == $_SERVER["REQUEST_METHOD"]){
-			return self::newSubmit();
+			$task = new Task($_REQUEST);
+			$task->insert();
+			return Router::redirectTo("list");
 		}
 		return View::render("new", [
 			"task" => new Task()
@@ -23,10 +25,12 @@ class TodoController {
 	}
 
 	public static function edit(int $id){
-		if("POST" == $_SERVER["REQUEST_METHOD"]){
-			return self::editSubmit($id);
-		}
 		$task = Task::findById($id);
+		if("POST" == $_SERVER["REQUEST_METHOD"]){
+			$task->patch($_REQUEST);
+			$task->update();
+			return Router::redirectTo("list");
+		}
 		return View::render("new", [
 			"task" => $task
 		]);
