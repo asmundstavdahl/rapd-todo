@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "asmundstavdahl/rapd",
-            "version": "0.5.1",
+            "version": "0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asmundstavdahl/rapd.git",
-                "reference": "1b0b95e6d4c9a7081a92c0c15e194447d52658de"
+                "reference": "0be355601c933b20ba4b6a2516eb34ab4a73bcbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asmundstavdahl/rapd/zipball/1b0b95e6d4c9a7081a92c0c15e194447d52658de",
-                "reference": "1b0b95e6d4c9a7081a92c0c15e194447d52658de",
+                "url": "https://api.github.com/repos/asmundstavdahl/rapd/zipball/0be355601c933b20ba4b6a2516eb34ab4a73bcbd",
+                "reference": "0be355601c933b20ba4b6a2516eb34ab4a73bcbd",
                 "shasum": ""
             },
             "type": "library",
@@ -31,7 +31,7 @@
                 "Apache-2.0"
             ],
             "description": "Super KISS PHP web app library",
-            "time": "2018-08-08T07:50:57+00:00"
+            "time": "2018-08-08T10:33:17+00:00"
         }
     ],
     "packages-dev": [],
