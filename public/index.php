@@ -11,7 +11,7 @@ use \Rapd\View;
 
 # Generate a response based on the request and the configured routes
 $uri = $_SERVER["REQUEST_URI"];
-$uri = preg_replace("`^/todo/`", "/", $uri);
+#$uri = preg_replace("`^/todo/`", "/", $uri);
 $matchedRoute = Router::match($uri);
 
 if($matchedRoute === false){

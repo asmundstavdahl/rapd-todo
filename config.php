@@ -12,7 +12,7 @@ use \Rapd\Environment;
 
 # Set some environment variables used by the header template
 # For JS, CSS, images etc.: (ASSET_BASE)/css/app.css
-Environment::set("ASSET_BASE", "/todo");
+Environment::set("ASSET_BASE", "");
 # Page meta for html/head
 Environment::set("TITLE", "rapd-todo");
 Environment::set("AUTHOR", "Åsmund Stavdahl");
