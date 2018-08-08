@@ -1,2 +1,2 @@
 vendor/
-default.sqlite3
+*.sqlite3
