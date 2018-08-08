@@ -6,6 +6,6 @@ Simple todo web app to demo [Rapd](https://github.com/asmundstavdahl/rapd)
 git clone https://github.com/asmundstavdahl/rapd-todo.git
 cd rapd-todo
 composer install
-sqlite3 default.sqlite3 < todo.sql
+sqlite3 app.sqlite3 < todo.sql
 php -S localhost:8080 --docroot=public/
 ```
