@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4c65774d0c671b0a894973cfc5af7fc",
+    "content-hash": "e753586eb69283630af36425a69c57b5",
     "packages": [
         {
             "name": "asmundstavdahl/rapd",
-            "version": "0.4.1",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asmundstavdahl/rapd.git",
-                "reference": "6d54dba2f935b597b000c72299dd7627b8a74bd8"
+                "reference": "1b0b95e6d4c9a7081a92c0c15e194447d52658de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asmundstavdahl/rapd/zipball/6d54dba2f935b597b000c72299dd7627b8a74bd8",
-                "reference": "6d54dba2f935b597b000c72299dd7627b8a74bd8",
+                "url": "https://api.github.com/repos/asmundstavdahl/rapd/zipball/1b0b95e6d4c9a7081a92c0c15e194447d52658de",
+                "reference": "1b0b95e6d4c9a7081a92c0c15e194447d52658de",
                 "shasum": ""
             },
             "type": "library",
@@ -31,7 +31,7 @@
                 "Apache-2.0"
             ],
             "description": "Super KISS PHP web app library",
-            "time": "2018-08-06T20:26:17+00:00"
+            "time": "2018-08-08T07:50:57+00:00"
         }
     ],
     "packages-dev": [],

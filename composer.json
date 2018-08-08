@@ -1,5 +1,5 @@
 {
     "require": {
-        "asmundstavdahl/rapd": "^0.4.1"
+        "asmundstavdahl/rapd": "^0.5"
     }
 }

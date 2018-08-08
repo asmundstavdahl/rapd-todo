@@ -14,27 +14,22 @@ class TodoController {
 	}
 
 	public static function new(){
+		if("POST" == $_SERVER["REQUEST_METHOD"]){
+			return self::newSubmit();
+		}
 		return View::render("new", [
 			"task" => new Task()
 		]);
 	}
-	public static function newSubmit(){
-		$task = new Task($_REQUEST);
-		$task->insert();
-		return Router::redirectTo("list");
-	}
 
 	public static function edit(int $id){
+		if("POST" == $_SERVER["REQUEST_METHOD"]){
+			return self::editSubmit($id);
+		}
 		$task = Task::findById($id);
 		return View::render("new", [
 			"task" => $task
 		]);
-	}
-	public static function editSubmit(int $id){
-		$task = Task::findById($id);
-		$task->patch($_REQUEST);
-		Database::save($task);
-		return Router::redirectTo("list");
 	}
 
 	public static function done(int $id){
