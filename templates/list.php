@@ -6,9 +6,9 @@
 	<?php foreach($tasks as $task): ?>
 		<div class="task">
 			<h2>
-				<a class="button" href="<?= route("done", [$task->id]) ?>">x</a>
+				<a class="button" href="<?= route("done", [$task->id]) ?>">&#x2713;</a>
+				<a class="button" href="<?= route("edit", [$task->id]) ?>">&#x270e;</a>
 				<?= $task->body ?>
-				<a class="button" href="<?= route("edit", [$task->id]) ?>">edit</a>
 			</h2>
 		</div>
 	<?php endforeach; ?>
