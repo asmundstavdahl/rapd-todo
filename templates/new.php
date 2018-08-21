@@ -7,4 +7,6 @@
 	<input type="submit">
 </form>
 
+<a class="button" href="<?= route("list") ?>">Back</a>
+
 <?= render("footer") ?>
